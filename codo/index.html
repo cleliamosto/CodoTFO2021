@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indu1.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f1da5931c.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<link rel="icon" href="/anexos/descarga.ico">
+<body>
+<section class="header">
+       <nav>
+           <a href="index.html"><img src="/anexos/descarga.jpg"> </a>
+           <div class="nav-links" id= "navLinks">
+            <i class="fa fa-times" onclick="HideMenu()"> </i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="indu2.html">ABOUT</a></li>
+                <li><a href="indu3.html">COURSE</a></li>
+                <li><a href="indu4.html">BLOG</a></li>
+                <li><a href="indu5.html">CONTACT</a></li>
+               </ul>
+           </div>
+         <i class="fa fa-bars" onclick="ShowMenu()" ></i>
+       </nav>
+
+<div class="text-box">
+    <h1>Las Totas</h1>
+    <p>Haciendo este website asi puedo seguir participando <br> del curso Codos!</p>
+    <a href="" class= "hero-btn">VISITANOS PARA CONOCER MÁS</a>
+</div>
+
+</section>
+
+<!-----CURSO-->
+
+<section class="curso">
+    <H1>Oferta de Cursos</H1>
+    <p> Tenemos una amplia oferta de cursos según sus necesidades.
+    </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Doctorado  </h3>
+            <p>Aprenda a jugar al Doctor con los mínimos insumos. </p>
+        </div>
+
+        <div class="course-col">
+            <h3>Masa en la mesa </h3>
+            <p>Con la receta perfecta usted podrá aprender a jugar con masa de manera entretenida. </p>
+        </div>
+        <div class="course-col">
+            <h3> Construcción de particulares </h3>
+            <p>Con bases de arquitectura e ingeniería, podrá construir los más magnificos rascacielos. </p>
+        </div>
+    </div>
+
+</section>
+
+<!-- Contact us -->
+<section class="contacto" > 
+<h2>Participá desde cualquier parte del País </h2>
+<a href="" class="hero-btn">CONTACTO</a>
+
+</section>
+
+<!-----Footer-->
+<section class="footer">
+    <h4>Nosotros</h4>
+    <p>Una pequeña empresa de dos hermanas</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    
+
+
+</section>
+
+<!--Para desplegar el menu (en java)-->
+<script> 
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu() {
+        navLinks.style.right = "0";
+    }
+    function HideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
