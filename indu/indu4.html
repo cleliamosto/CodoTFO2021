@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indu1.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f1da5931c.js" crossorigin="anonymous"></script>
+
+</head>
+<link rel="icon" href="../anexos/descarga.ico">
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../anexos/descarga.jpg"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"> </i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="indu2.html">ABOUT</a></li>
+                    <li><a href="indu3.html">COURSE</a></li>
+                    <li><a href="indu4.html">BLOG</a></li>
+                    <li><a href="indu5.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>BLOG</h1>
+
+    </section>
+
+    <!-----Blog-->
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="../anexos/b4.JPG">
+                <h2>Podés pedir certificado de asistencia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum est hic, enim repellat temporibus culpa voluptas porro? Illo, nisi, vitae odit porro laboriosam, magni beatae ex perferendis doloremque at veritatis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id at sed fugiat dolor molestiae culpa repudiandae pariatur reprehenderit blanditiis vitae quasi hic, ullam neque distinctio, animi itaque atque consequuntur.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id at sed fugiat dolor molestiae culpa repudiandae pariatur reprehenderit blanditiis vitae quasi hic, ullam neque distinctio, animi itaque atque consequuntur.</p>
+
+
+            <div class= "comment-box">
+                <h3>Dejá tu comentario</h3>
+                <form class="comment-form" >
+                    <input type="text" placeholder="Nombre y Apellido">
+                    <input type="email" placeholder="Email">
+                    <textarea rows="5" placeholder="Comentario"></textarea> 
+                    <button type="submit" class="hero-btn red-btn">Enviar</button>
+                </form>
+            </div>    
+            </div>
+
+            <div class="blog-right">
+                <h3>Últimos Posteos </h3>
+                <div>
+                    <span>Woody y Jessi</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Imanes mágicos</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>Sálvese quien pueda</span>
+                    <span>58</span>
+                </div>
+                <div>
+                    <span>Out of order</span>
+                    <span>14</span>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-----Footer-->
+    <section class="footer">
+        <h4>Nosotras</h4>
+        <p>Una pequeña empresa de dos hermanas</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+
+
+    </section>
+
+    <!--Para desplegar el menu (en java)-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function ShowMenu() {
+            navLinks.style.right = "0";
+        }
+        function HideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
